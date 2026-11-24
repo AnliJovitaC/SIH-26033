@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:24/11/2026
+## Reference Number:26008892
+## Name:Anli Jovita C
 
 ## Problem Title
 SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
@@ -26,27 +26,35 @@ Benefits:
 • Reduced supply chain inefficiencies.
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+CROPCHAIN
+1. FPOs gather the farmer's produce into one pool and sells it in two ways 
+    i)Through bulk bidding to big business like hotels and educational institutes' mess.
+    ii)Through subscription boxes delivery to nearby houses.
+Carried out by delivery and AI helping demand and plan routes.
+2. Farmers sell directly to buyers, so no middlemen and consumers pay less.Pooling produce and AI-driven shared delivery cut waste and transport costs.
+3. Most platforms has one channel, ours runs bulk orders(auction bidding) and subscriptions together, turning unsold bulk stock into pre-sold subscription boxes instead of waste.
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+1. System Architecture
+    i)Frontend: HTML-based interfaces for farmers/FPOs, buyers, and consumers, with dashboards for FPO admins.
+    ii)Backend: Python with Django to manage listings, bidding, subscriptions, orders, payments, and logistics.
+    iii)Database: SQL database to store farmer, FPO, produce, order, transaction, and delivery data.
+    iv)AI: Python-based models for demand forecasting and delivery route optimization.
+2. ![alt text](image.png)
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
+Technical: HTML, Django, SQL and Python AI are familiar, mature technologies and can be built within the SIH timeline.
+Operational: FPOs already work as farmer collectives. We can start delivery locally using existing transport partners.
+Economic: Small commissions from bulk orders and subscriptions, while shared delivery helps keep costs low.
 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
+Farmers: Better prices and higher earnings.
+Consumers: Lower prices and fresher produce.
+Buyers: Reliable and traceable supply.
+Society: Stronger FPOs, better rural livelihoods and fewer middlemen.
+Environment: Better routes and less spoilage reduce waste and emissions. 
 
 ## Research and References
-Remove These Lines
-1. Details / Links of the reference and research work
+Government of India - Linkage of FPOs with Industries (2025)
+MoFPI/NABCONS - Study to Determine Post-Harvest Losses of Agri Produces in India
+Zhu, Yang & Feng - Role of Artificial Intelligence in Mitigating Risk in Multi-Stage Agricultural Supply Chain Networks (2025)
